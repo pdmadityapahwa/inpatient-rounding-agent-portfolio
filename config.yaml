@@ -1,0 +1,11 @@
+model: gpt-6.1-sol
+reference_time: "2026-11-17T07:30:00Z"
+prior_note_signed_at: "2026-11-16T06:10:00Z"
+context_hours: 24
+end_to_end_timeout_seconds: 10
+max_retries_after_initial: 3
+max_output_tokens:
+  retriever: 3000
+  documentation: 4000
+case_dir: data/synthetic_case_001
+run_log: run_logs/runs.jsonl
